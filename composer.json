@@ -4,25 +4,6 @@
 	"keywords": ["framework", "laravel","betteryourweb"],
 	"license": "MIT",
 	"type": "project",
-<<<<<<< HEAD
-	"repositories": [
-	    {
-	        "type": "package",
-	        "package": {
-	            "name": "betteryourweb/laravel-custom",
-	            "version": "dev-master",
-	            "source": {
-	                "url": "git://github.com/betteryourweb/laravel-custom.git",
-	                "type": "git",
-	                "reference": "master"
-	            },
-	            
-	        }
-	    }
-	],
-
-=======
->>>>>>> e4f94c92ad1b9fc08d275fba18022c954f986627
 	"require": {
 		"laravel/framework": "5.0.*"
 	},

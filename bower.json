@@ -1,0 +1,32 @@
+{
+  "name": "MightSaveALife",
+  "version": "0.0.1a",
+  "authors": [
+    "Derek Williams <betteryourweb@gmail.com>"
+  ],
+  "description": "A website that allows you to report suspicious activity, such as a possibile pedophile, abduction, etc... With all that's going on in the world, we are just contributing to make it a little safer.",
+  "keywords": [
+    "might",
+    "save",
+    "a",
+    "life",
+    "pedophile",
+    "abduction",
+    "crime",
+    "suspicious",
+    "activity",
+    "suspect",
+    "crime",
+    "criminal",
+    "children"
+  ],
+  "license": "MIT",
+  "homepage": "mightsavealife.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
