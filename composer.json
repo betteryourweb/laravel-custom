@@ -4,6 +4,7 @@
 	"keywords": ["framework", "laravel","betteryourweb"],
 	"license": "MIT",
 	"type": "project",
+<<<<<<< HEAD
 	"repositories": [
 	    {
 	        "type": "package",
@@ -20,6 +21,8 @@
 	    }
 	],
 
+=======
+>>>>>>> e4f94c92ad1b9fc08d275fba18022c954f986627
 	"require": {
 		"laravel/framework": "5.0.*"
 	},
