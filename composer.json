@@ -1,9 +1,25 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "betteryourweb/laravel-custom",
+	"description": "The Laravel Framework, Redesigned to make me happy...",
+	"keywords": ["framework", "laravel","betteryourweb"],
 	"license": "MIT",
 	"type": "project",
+	"repositories": [
+	    {
+	        "type": "package",
+	        "package": {
+	            "name": "betteryourweb/laravel-custom",
+	            "version": "dev-master",
+	            "source": {
+	                "url": "git://github.com/betteryourweb/laravel-custom.git",
+	                "type": "git",
+	                "reference": "master"
+	            },
+	            
+	        }
+	    }
+	],
+
 	"require": {
 		"laravel/framework": "5.0.*"
 	},
