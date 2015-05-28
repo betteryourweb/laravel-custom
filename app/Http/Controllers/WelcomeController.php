@@ -1,5 +1,8 @@
 <?php namespace App\Http\Controllers;
 
+
+use Betteryourweb\Common\EmailService;
+
 class WelcomeController extends Controller {
 
 	/*
@@ -28,8 +31,13 @@ class WelcomeController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function index(EmailService $mailer)
 	{
+        $user = (object) [];
+        $user->email = 'betteryourweb@gmail.com';
+
+        $mailer->sendTo($user,'Test Email', 'emails.auth.verification',[]);
+		//return response()->json([$service->test()]);
 		return view('welcome');
 	}
 
